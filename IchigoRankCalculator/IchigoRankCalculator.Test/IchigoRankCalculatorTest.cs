@@ -8,7 +8,7 @@ namespace IchigoRankCalculator.Test
         [Fact]
         public void 品種にあまおう_サイズにSを与えていちごを作成する()
         {
-
+            Assert.NotNull(ichigo);
         }
     }
 }
