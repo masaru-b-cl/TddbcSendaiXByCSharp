@@ -3,7 +3,7 @@ using Xunit;
 
 namespace IchigoRankCalculator.Test
 {
-    public class UnitTest1
+    public class いちごの作成
     {
         [Fact]
         public void Test1()
