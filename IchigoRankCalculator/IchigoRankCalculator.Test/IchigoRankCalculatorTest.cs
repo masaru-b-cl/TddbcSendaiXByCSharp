@@ -8,8 +8,11 @@ namespace IchigoRankCalculator.Test
         [Fact]
         public void 品種にあまおう_サイズにSを与えていちごを作成する()
         {
-            Ichigo ichigo = new Ichigo();
-            Assert.NotNull(ichigo);
+            Ichigo ichigo = new Ichigo(breed: "あまおう", size: "S");
+
+            // Assert.NotNull(ichigo);
+            Assert.Equal("あまおう", ichigo.Breed);
+            Assert.Equal("S", ichigo.Size);
         }
     }
 }
