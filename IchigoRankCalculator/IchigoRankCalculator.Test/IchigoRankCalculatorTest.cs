@@ -10,7 +10,6 @@ namespace IchigoRankCalculator.Test
         {
             Ichigo ichigo = new Ichigo(breed: "あまおう", size: "S");
 
-            // Assert.NotNull(ichigo);
             Assert.Equal("あまおう", ichigo.Breed);
             Assert.Equal("S", ichigo.Size);
         }
@@ -20,7 +19,6 @@ namespace IchigoRankCalculator.Test
         {
             Ichigo ichigo = new Ichigo(breed: "とちおとめ", size: "M");
 
-            // Assert.NotNull(ichigo);
             Assert.Equal("とちおとめ", ichigo.Breed);
             Assert.Equal("M", ichigo.Size);
         }
