@@ -14,5 +14,15 @@ namespace IchigoRankCalculator.Test
             Assert.Equal("あまおう", ichigo.Breed);
             Assert.Equal("S", ichigo.Size);
         }
+
+        [Fact]
+        public void 品種にとちおとめ_サイズにMを与えていちごを作成する()
+        {
+            Ichigo ichigo = new Ichigo(breed: "とちおとめ", size: "M");
+
+            // Assert.NotNull(ichigo);
+            Assert.Equal("とちおとめ", ichigo.Breed);
+            Assert.Equal("M", ichigo.Size);
+        }
     }
 }
