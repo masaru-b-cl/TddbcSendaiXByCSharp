@@ -14,7 +14,7 @@ TDDBC Sendai X Online のお題をC#でやってみた
 ├── TODO                            TODOリスト
 │   └── exercises1.md                   課題1のTODO
 ├── README.md                       このファイル
-└── appveyor.yml                    AppVeyor恋正ファイル
+└── appveyor.yml                    AppVeyor構成ファイル
 ```
 
 ## 必要要件
