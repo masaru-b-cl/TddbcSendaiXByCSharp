@@ -6,12 +6,11 @@ namespace IchigoRankCalculator
     {
         public Ichigo(string breed, string size)
         {
-            this.Breed = breed;
-            this.Size = size;
+            Breed = breed;
+            Size = size;
         }
 
-        public string Breed { get; private set; }
-
-        public string Size { get; private set; }
+        public string Breed { get; }
+        public string Size { get; }
     }
 }
