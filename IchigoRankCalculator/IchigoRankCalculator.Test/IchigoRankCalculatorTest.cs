@@ -23,4 +23,14 @@ namespace IchigoRankCalculator.Test
             Assert.Equal("M", ichigo.Size);
         }
     }
+
+    public class いちごを文字列表現に変換する
+    {
+        [Fact(DisplayName = "あまおうのSサイズは\"あまおう: S\"になる")]
+        public void あまおうのSサイズ()
+        {
+            var ichigo = new Ichigo(breed: "あまおう", size: "S");
+            Assert.Equal("あまおう: S", ichigo.ToString());
+        }
+    }
 }
