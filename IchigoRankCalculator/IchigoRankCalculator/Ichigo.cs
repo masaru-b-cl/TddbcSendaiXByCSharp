@@ -15,7 +15,7 @@ namespace IchigoRankCalculator
 
         public override string ToString()
         {
-            return "あまおう: S";
+            return $"{Breed}: S";
         }
     }
 }
