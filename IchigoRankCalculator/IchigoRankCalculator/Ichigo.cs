@@ -15,7 +15,7 @@ namespace IchigoRankCalculator
 
         public override string ToString()
         {
-            return $"{Breed}: S";
+            return $"{Breed}: {Size}";
         }
     }
 }
