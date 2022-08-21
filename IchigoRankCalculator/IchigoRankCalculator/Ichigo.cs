@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace IchigoRankCalculator
+﻿namespace IchigoRankCalculator
 {
     public class Ichigo
     {
